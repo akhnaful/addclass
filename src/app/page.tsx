@@ -1,8 +1,6 @@
 import AboutSection from '@/components/AboutSection';
 import ContactSection from '@/components/ContactSection';
-import Footer from '@/components/Footer';
 import { FooterBoxes } from '@/components/FooterBoxes';
-import { HeroParallaxDe } from '@/components/HeroParallax';
 import HeroSection from '@/components/HeroSection';
 import ProjectSection from '@/components/ProjectSection/ProjectSection';
 import SkilsSection from '@/components/Skills/SkilsSection';

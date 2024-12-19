@@ -12,7 +12,7 @@ export function FooterBoxes() {
       <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
       
-      <div className="relative z-20 flex flex-col items-center">
+      <div className="z-20 items-center">
         <div className="flex justify-center text-teal-600"> 
           <svg className={cn("h-8")} viewBox="0 0 118 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -59,7 +59,8 @@ export function FooterBoxes() {
         </div>
         
         <p className={cn("mx-auto mt-6 max-w-md text-center text-xl text-neutral-300 uppercase font-medium md:max-w-2xl")}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laboriosam labore delectus, debitis ipsum facilis voluptatem eius officia ratione et.
+        Pecahkan masalah dan Membangun sesuatu melalui kode <br/>
+        juga fleksibel dalam komunikasi terkait zona waktu dan lokasi.
         </p>
 
         <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12 text-xl">
@@ -74,7 +75,7 @@ export function FooterBoxes() {
 
         <ul className="mt-12 flex justify-center gap-6 md:gap-8">
           <li>
-            <a href="#" rel="noreferrer" target="_blank" className="text-neutral-300 transition hover:text-gray-700/75">
+            <a href="#" rel="noreferrer" target="https://satupersen.net/quiz/tes-kejujuran" className="text-neutral-300 transition hover:text-gray-700/75">
               <span className="sr-only">Facebook</span>
               <svg className="size-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
@@ -87,7 +88,7 @@ export function FooterBoxes() {
           </li>
 
           <li>
-            <a href="#" rel="noreferrer" target="_blank" className="text-neutral-300 transition hover:text-gray-700/75">
+            <a href="#" rel="noreferrer" target="https://satupersen.net/quiz/tes-kejujuran" className="text-neutral-300 transition hover:text-gray-700/75">
               <span className="sr-only">Instagram</span>
               <svg className="size-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
@@ -100,7 +101,7 @@ export function FooterBoxes() {
           </li>
 
           <li>
-            <a href="#" rel="noreferrer" target="_blank" className="text-neutral-300 transition hover:text-gray-700/75">
+            <a href="#" rel="noreferrer" target="https://satupersen.net/quiz/tes-kejujuran" className="text-neutral-300 transition hover:text-gray-700/75">
               <span className="sr-only">Twitter</span>
               <svg className="size-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
@@ -109,7 +110,7 @@ export function FooterBoxes() {
           </li>
 
           <li>
-            <a href="#" rel="noreferrer" target="_blank" className="text-neutral-300 transition hover:text-gray-700/75">
+            <a href="#" rel="noreferrer" target="https://github.com/akhnaful" className="text-neutral-300 transition hover:text-gray-700/75">
               <span className="sr-only">GitHub</span>
               <svg className="size-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
@@ -122,7 +123,7 @@ export function FooterBoxes() {
           </li>
 
           <li>
-            <a href="#" rel="noreferrer" target="_blank" className="text-neutral-300 transition hover:text-gray-700/75">
+            <a href="#" rel="noreferrer" target="https://satupersen.net/quiz/tes-kejujuran" className="text-neutral-300 transition hover:text-gray-700/75">
               <span className="sr-only">Dribbble</span>
               <svg className="size-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
@@ -134,8 +135,9 @@ export function FooterBoxes() {
             </a>
           </li>
         </ul>
+        <p className="mx-auto mt-3 max-w-md text-center">© 2024 Ahmad Akhnaf. All rights reserved.</p>
         </div>
-        <Boxes className="inset-0 z-10"/>
+        <Boxes className="z-10"/>
       </div>
       
     

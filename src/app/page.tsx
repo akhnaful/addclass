@@ -1,6 +1,8 @@
 import AboutSection from '@/components/AboutSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import { FooterBoxes } from '@/components/FooterBoxes';
+import { HeroParallaxDe } from '@/components/HeroParallax';
 import HeroSection from '@/components/HeroSection';
 import ProjectSection from '@/components/ProjectSection/ProjectSection';
 import SkilsSection from '@/components/Skills/SkilsSection';
@@ -11,12 +13,14 @@ export default function Home() {
     <main>
       <NavbarComponents />
       <HeroSection />
+      {/* <HeroParallaxDe /> */}
       <div className="space-y-20 md:space-y-44">
         <AboutSection />
         <ProjectSection />
         <SkilsSection />
         <ContactSection />
-        <Footer />
+        {/* <Footer /> */}
+        <FooterBoxes />
       </div>
     </main>
   );

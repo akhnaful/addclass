@@ -20,8 +20,8 @@ export default function HeroSection() {
               Pemecah masalah dan pembangun sesuatu melalui Kode
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-10 lg:justify-start">
-              <Button link="/">Hire Me</Button>
-              <ButtonBorder link="/">{`Let's talk`}</ButtonBorder>
+              <Button link="/#contact">Hire Me</Button>
+              <ButtonBorder link="/#contact">{`Let's talk`}</ButtonBorder>
             </div>
           </div>
         </div>
